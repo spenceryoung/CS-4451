@@ -1,0 +1,62 @@
+/*==========  CSS Reset  ==========*/
+
+html, body, div, span, h1, h2, h3,
+h4, h5, h6, p, ol, ul, li, article,
+aside, footer, header, nav, section {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+}
+
+/*==========  Navigation  ==========*/
+
+/*==========  Header  ==========*/
+
+/*==========  Main Content  ==========*/
+
+/*==========  Footer  ==========*/
+
+/*==========  For Desktop First  ==========*/
+
+@media only screen and (max-width : 1200px) {
+
+}
+
+@media only screen and (max-width : 992px) {
+
+}
+
+@media only screen and (max-width : 768px) {
+
+}
+
+@media only screen and (max-width : 480px) {
+
+}
+
+@media only screen and (max-width : 320px) {
+
+}
+
+/*==========  For Mobile First  ==========*/
+
+@media only screen and (min-width : 320px) {
+
+}
+
+@media only screen and (min-width : 480px) {
+
+}
+
+@media only screen and (min-width : 768px) {
+
+}
+
+@media only screen and (min-width : 992px) {
+
+}
+
+@media only screen and (min-width : 1200px) {
+
+}
