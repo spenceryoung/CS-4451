@@ -29,7 +29,7 @@ body {
 }
 
 .section {
-    max-width: 500px;
+    max-width: 800px;
     margin: auto;
     background-color: #fff;
     text-align: center;
@@ -43,6 +43,10 @@ label {
     display: block;
     padding: 10px 0;
     font-size: 30px;
+}
+
+.lbl-text {
+    font-size: 15px;
 }
 
 .textbox {
