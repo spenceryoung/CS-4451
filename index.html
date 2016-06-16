@@ -12,25 +12,24 @@
     <header>
     </header>
     <div class="container">
-        <form>
-            <h1>ENCRYPTION</h1>
-            <label>Enter the thing</label>
-            <input type="text" class="textbox" /><br>
-            <button type="button">SUBMIT</button>
-        </form>
+        <div class="section">
+            <label>MESSAGE TO ENCRYPT</label>
+            <input type="text" id="encrypt-tbx" class="textbox" /><br>
+            <button id="encrypt-btn">ENCRYPT</button>
+        </div>
+        <div class="section">
+            <label>MESSAGE TO DECRYPT</label>
+            <input type="text" id="decrypt-tbx" class="textbox" /><br>
+            <button id="decrypt-btn">DECRYPT</button>
+        </div>
     </div>
     <footer>
     </footer>
-    <script src="https://www.gstatic.com/firebasejs/live/3.0/firebase.js"></script>
-    <script>
-        var config = {
-            apiKey: "AIzaSyDfdOfCNXQI8rg6JWSdOJv9WPS8aglZkJo",
-            authDomain: "project-8051179235504720854.firebaseapp.com",
-            databaseURL: "https://project-8051179235504720854.firebaseio.com",
-            storageBucket: "",
-        };
-        firebase.initializeApp(config);
-    </script>
+    <script type="text/javascript" src="js/aes.js"></script>
+    <script type="text/javascript" src="js/core-min.js"></script>
+    <script type="text/javascript" src="js/enc-base64-min.js"></script>
+    <script type="text/javascript" src="js/enc-utf16-min.js"></script>
+    <script type="text/javascript" src="js/sha1.js"></script>
     <script type="text/javascript" src="js/main.js"></script>
 </body>
 </html>

@@ -28,23 +28,21 @@ body {
     font-family: 'Montserrat', sans-serif;
 }
 
-form {
+.section {
     max-width: 500px;
     margin: auto;
     background-color: #fff;
     text-align: center;
-    border-radius: 10px;
 }
 
-h1 {
-    font-family: 'Open Sans Condensed', sans-serif;
-    font-size: 50px;
-    border-bottom: 2px solid rgb(16,17,18);
+.section:last-child {
+    border-top: 2px solid rgb(16,17,18);
 }
 
 label {
     display: block;
     padding: 10px 0;
+    font-size: 30px;
 }
 
 .textbox {
