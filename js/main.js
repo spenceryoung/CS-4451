@@ -1,19 +1,14 @@
-var eValue = document.getElementById('encrypt-tbx'),
-    dValue = document.getElementById('decrypt-tbx'),
-    eBtn = document.getElementById('encrypt-btn'),
-    dBtn = document.getElementById('decrypt-btn'),
-    eLbl = document.getElementById('encrypt-lbl'),
-    dLbl = document.getElementById('decrypt-lbl'),
-    encrypted, decrypted;
+var encrypted, decrypted;
 
 
-eBtn.addEventListener('click', function() {
-    encrypted = CryptoJS.AES.encrypt(eValue.value, "Secret Passphrase");
-    dValue.value = encrypted;
-    eLbl.textContent = encrypted;
+document.getElementById('encrypt-btn').addEventListener('click', function() {
+    encrypted = CryptoJS.AES.encrypt(document.getElementById('encrypt-tbx').value,
+        "Secret Passphrase");
+    document.getElementById('decrypt-tbx').value = encrypted;
+    document.getElementById('encrypt-lbl').textContent = encrypted;
 }, false);
 
-dBtn.addEventListener('click', function() {
+document.getElementById('decrypt-btn').addEventListener('click', function() {
     decrypted = CryptoJS.AES.decrypt(encrypted, "Secret Passphrase");
-    dLbl.textContent = decrypted.toString(CryptoJS.enc.Utf8);
+    document.getElementById('decrypt-lbl').textContent = decrypted.toString(CryptoJS.enc.Utf8);
 }, false);
