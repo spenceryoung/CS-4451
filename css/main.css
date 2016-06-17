@@ -39,14 +39,17 @@ body {
     border-top: 2px solid rgb(16,17,18);
 }
 
-label {
-    display: block;
-    padding: 10px 0;
+p {
+    padding: 15px 0;
     font-size: 30px;
 }
 
+p:last-child {
+    padding-top: 0;
+}
 .lbl-text {
     font-size: 15px;
+    display: none;
 }
 
 .textbox {
