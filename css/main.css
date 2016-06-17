@@ -14,18 +14,29 @@ input, button {
 
 /*==========  Header  ==========*/
 
+h1 {
+    color: #fff;
+    text-align: center;
+    font-size: 50px;
+    margin-top: 20px;
+}
+
 /*==========  Main Content  ==========*/
 
 body {
     background-color: rgb(16,17,18);
+    font-family: 'Montserrat', sans-serif;
 }
 
 .container {
     position: absolute;
     width: 100%;
     top: 50%;
+    -ms-transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
     transform: translateY(-50%);
-    font-family: 'Montserrat', sans-serif;
 }
 
 .section {
@@ -67,7 +78,6 @@ button {
     transition: color 0.5s, background-color 0.5s, ease;
     background-color: rgb(16, 17, 18);
     color: #fff;
-    font-family: 'Montserrat', sans-serif;
 }
 button:hover {
     background-color: #fff;
