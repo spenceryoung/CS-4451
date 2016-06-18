@@ -14,11 +14,16 @@ input, button {
 
 /*==========  Header  ==========*/
 
+header {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px 0;
+}
+
 h1 {
     color: #fff;
     text-align: center;
     font-size: 50px;
-    margin-top: 20px;
 }
 
 /*==========  Main Content  ==========*/
@@ -29,14 +34,7 @@ body {
 }
 
 .container {
-    position: absolute;
-    width: 100%;
-    top: 50%;
-    -ms-transform: translateY(-50%);
-    -webkit-transform: translateY(-50%);
-    -moz-transform: translateY(-50%);
-    -o-transform: translateY(-50%);
-    transform: translateY(-50%);
+
 }
 
 .section {
@@ -55,12 +53,9 @@ p {
     font-size: 30px;
 }
 
-p:last-child {
-    padding-top: 0;
-}
 .lbl-text {
     font-size: 15px;
-    display: none;
+    word-wrap: break-word;
 }
 
 .textbox {
@@ -68,11 +63,16 @@ p:last-child {
     width: 248px;
 }
 
+input {
+    display: block;
+    margin: auto;
+}
 
 button {
-    margin: 15px 0;
+    display: block;
+    margin: 15px auto;
     padding: 20px 0;
-    width: 248px;
+    width: 250px;
     border: 1px solid rgb(16,17,18);
     -webkit-transition: color 0.5s, background-color 0.5s, ease;
     transition: color 0.5s, background-color 0.5s, ease;
