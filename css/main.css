@@ -14,12 +14,6 @@ input, button {
 
 /*==========  Header  ==========*/
 
-header {
-    max-width: 800px;
-    margin: auto;
-    padding: 20px 0;
-}
-
 h1 {
     color: #fff;
     text-align: center;
@@ -34,7 +28,14 @@ body {
 }
 
 .container {
-
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    transform: translateY(-50%);
 }
 
 .section {
@@ -102,9 +103,7 @@ button:hover {
 }
 
 @media only screen and (max-width : 480px) {
-    h1 {
-        font-size: 35px;
-    }
+
 }
 
 @media only screen and (max-width : 320px) {
