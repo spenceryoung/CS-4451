@@ -18,7 +18,7 @@ h1 {
     color: #fff;
     text-align: center;
     font-size: 50px;
-    padding-top: 15px;
+    padding: 15px 0;
 }
 
 /*==========  Main Content  ==========*/
@@ -29,14 +29,7 @@ body {
 }
 
 .container {
-    position: absolute;
-    width: 100%;
-    top: 50%;
-    -ms-transform: translateY(-50%);
-    -webkit-transform: translateY(-50%);
-    -moz-transform: translateY(-50%);
-    -o-transform: translateY(-50%);
-    transform: translateY(-50%);
+    text-align: center;
 }
 
 .section {
@@ -88,6 +81,50 @@ button:hover {
 }
 
 /*==========  Footer  ==========*/
+
+footer {
+    position:absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(16,17,18);
+    color: #fff;
+}
+
+.footer-container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px 30px;
+}
+
+.social-networking-links {
+    display: inline-block;
+}
+
+.social-networking-links a, .footer-tag a {
+    text-decoration: none;
+    font-size: 25px;
+    color: #fff;
+}
+
+.linked-in {
+    padding-left: 25px;
+}
+
+.social-networking-links a:hover, .footer-tag a:hover {
+    color: #464646;
+}
+
+.footer-tag {
+    display: inline-block;
+    float: right;
+    padding-top: 5px;
+}
+
+.footer-tag a {
+    border-right: 2px solid #fff;
+    padding-right: 5.5px;
+    font-size: 16px;
+}
 
 /*==========  For Desktop First  ==========*/
 
