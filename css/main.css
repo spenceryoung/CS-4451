@@ -18,7 +18,7 @@ h1 {
     color: #fff;
     text-align: center;
     font-size: 50px;
-    padding: 50px 0;
+    padding: 20px 0;
 }
 
 /*==========  Main Content  ==========*/
@@ -128,7 +128,7 @@ footer {
 
 /*==========  For Desktop First  ==========*/
 
-@media only screen and (max-height : 723px) {
+@media only screen and (max-height : 666px) {
 
     footer {
         position: relative;
