@@ -83,21 +83,17 @@ button:hover {
 /*==========  Footer  ==========*/
 
 footer {
-    position:absolute;
-    bottom: 0;
-    width: 100%;
+    position:relative;
+    text-align: center;
     background-color: rgb(16,17,18);
     color: #fff;
-}
-
-.footer-container {
     max-width: 1200px;
     margin: auto;
     padding: 20px 30px;
 }
 
 .social-networking-links {
-    display: inline-block;
+    margin-top: 10px;
 }
 
 .social-networking-links a, .footer-tag a {
@@ -115,9 +111,6 @@ footer {
 }
 
 .footer-tag {
-    display: inline-block;
-    float: right;
-    padding-top: 5px;
 }
 
 .footer-tag a {
@@ -127,13 +120,6 @@ footer {
 }
 
 /*==========  For Desktop First  ==========*/
-
-@media only screen and (max-height : 666px) {
-
-    footer {
-        position: relative;
-    }
-}
 
 @media only screen and (max-width : 1200px) {
 
