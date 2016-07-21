@@ -1,6 +1,6 @@
 var iInnput = document.getElementById('encrypt-tbx'),
     dInnput = document.getElementById('decrypt-tbx'),
-    encrypted, decrypted;
+    encrypted = "", decrypted ="";
 
 document.getElementById('encrypt-btn').addEventListener('click', function() {
     if (iInnput.value == '') {
